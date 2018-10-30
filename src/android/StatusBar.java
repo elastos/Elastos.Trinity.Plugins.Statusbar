@@ -19,6 +19,7 @@
 */
 package org.apache.cordova.statusbar;
 
+import org.elastos.trinity.dapprt.TrinityPlugin;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Build;
@@ -36,7 +37,7 @@ import org.apache.cordova.PluginResult;
 import org.json.JSONException;
 import java.util.Arrays;
 
-public class StatusBar extends CordovaPlugin {
+public class StatusBar extends TrinityPlugin {
     private static final String TAG = "StatusBar";
 
     /**
