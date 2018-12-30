@@ -19,8 +19,9 @@
 
 #import <Cordova/CDVPlugin.h>
 #import <Cordova/CDVInvokedUrlCommand.h>
+#import "TrinityPlugin.h"
 
-@interface CDVStatusBar : CDVPlugin {
+@interface CDVStatusBar : TrinityPlugin {
     @protected
     BOOL _statusBarOverlaysWebView;
     UIView* _statusBarBackgroundView;
