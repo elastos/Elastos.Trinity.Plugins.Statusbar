@@ -23,9 +23,9 @@ description: Control the device status bar.
 
 |AppVeyor|Travis CI|
 |:-:|:-:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/cordova-plugin-statusbar?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/cordova-plugin-statusbar)|[![Build Status](https://travis-ci.org/apache/cordova-plugin-statusbar.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-statusbar)|
+|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/elastos-trinity-plugins-statusbar?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/elastos-trinity-plugins-statusbar)|[![Build Status](https://travis-ci.org/apache/elastos-trinity-plugins-statusbar.svg?branch=master)](https://travis-ci.org/apache/elastos-trinity-plugins-statusbar)|
 
-# cordova-plugin-statusbar
+# elastos-trinity-plugins-statusbar
 
 > The `StatusBar` object provides some functions to customize the iOS and Android StatusBar.
 
@@ -33,13 +33,13 @@ description: Control the device status bar.
 
 This installation method requires cordova 5.0+
 
-    cordova plugin add cordova-plugin-statusbar
+    cordova plugin add elastos-trinity-plugins-statusbar
 Older versions of cordova can still install via the __deprecated__ id
 
     cordova plugin add org.apache.cordova.statusbar
 It is also possible to install via repo url directly ( unstable )
 
-    cordova plugin add https://github.com/apache/cordova-plugin-statusbar.git
+    cordova plugin add https://github.com/apache/elastos-trinity-plugins-statusbar.git
 
 
 Preferences
