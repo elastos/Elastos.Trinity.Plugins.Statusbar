@@ -31,15 +31,9 @@ description: Control the device status bar.
 
 ## Installation
 
-This installation method requires cordova 5.0+
+ cordova plugin add https://github.com/apache/elastos-trinity-plugins-statusbar.git
 
-    cordova plugin add elastos-trinity-plugins-statusbar
-Older versions of cordova can still install via the __deprecated__ id
-
-    cordova plugin add org.apache.cordova.statusbar
-It is also possible to install via repo url directly ( unstable )
-
-    cordova plugin add https://github.com/apache/elastos-trinity-plugins-statusbar.git
+ The plugins field of dapp manifest.json adds StatusBar values, such as "plugins": ["XXXX", "StatusBar", "XXXX"]
 
 
 Preferences
