@@ -19,7 +19,7 @@
 */
 package org.apache.cordova.statusbar;
 
-import org.elastos.trinity.dapprt.TrinityPlugin;
+import org.elastos.trinity.runtime.TrinityPlugin;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Build;
