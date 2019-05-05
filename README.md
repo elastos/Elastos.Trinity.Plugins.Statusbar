@@ -21,19 +21,13 @@ description: Control the device status bar.
 #         under the License.
 -->
 
-|AppVeyor|Travis CI|
-|:-:|:-:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/elastos-trinity-plugins-statusbar?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/elastos-trinity-plugins-statusbar)|[![Build Status](https://travis-ci.org/apache/elastos-trinity-plugins-statusbar.svg?branch=master)](https://travis-ci.org/apache/elastos-trinity-plugins-statusbar)|
-
 # elastos-trinity-plugins-statusbar
 
 > The `StatusBar` object provides some functions to customize the iOS and Android StatusBar.
 
 ## Installation
 
- cordova plugin add https://github.com/apache/elastos-trinity-plugins-statusbar.git
-
- The plugins field of dapp manifest.json adds StatusBar values, such as "plugins": ["XXXX", "StatusBar", "XXXX"]
+    The plugins field of dapp manifest.json adds StatusBar values, such as "plugins": ["XXXX", "StatusBar", "XXXX"]
 
 
 Preferences
@@ -158,9 +152,6 @@ Supported Platforms
 
 - iOS
 - Android 6+
-- Windows Phone 7
-- Windows Phone 8
-- Windows Phone 8.1
 
 StatusBar.styleLightContent
 =================
@@ -175,9 +166,6 @@ Supported Platforms
 
 - iOS
 - Android 6+
-- Windows Phone 7
-- Windows Phone 8
-- Windows Phone 8.1
 
 StatusBar.styleBlackTranslucent
 =================
@@ -192,9 +180,6 @@ Supported Platforms
 
 - iOS
 - Android 6+
-- Windows Phone 7
-- Windows Phone 8
-- Windows Phone 8.1
 
 StatusBar.styleBlackOpaque
 =================
@@ -209,10 +194,6 @@ Supported Platforms
 
 - iOS
 - Android 6+
-- Windows Phone 7
-- Windows Phone 8
-- Windows Phone 8.1
-
 
 StatusBar.backgroundColorByName
 =================
@@ -231,9 +212,6 @@ Supported Platforms
 
 - iOS
 - Android 5+
-- Windows Phone 7
-- Windows Phone 8
-- Windows Phone 8.1
 
 StatusBar.backgroundColorByHexString
 =================
@@ -256,9 +234,6 @@ Supported Platforms
 
 - iOS
 - Android 5+
-- Windows Phone 7
-- Windows Phone 8
-- Windows Phone 8.1
 
 StatusBar.hide
 =================
@@ -273,9 +248,6 @@ Supported Platforms
 
 - iOS
 - Android
-- Windows Phone 7
-- Windows Phone 8
-- Windows Phone 8.1
 
 StatusBar.show
 =================
@@ -290,9 +262,6 @@ Supported Platforms
 
 - iOS
 - Android
-- Windows Phone 7
-- Windows Phone 8
-- Windows Phone 8.1
 
 
 StatusBar.isVisible
@@ -301,7 +270,7 @@ StatusBar.isVisible
 Read this property to see if the statusbar is visible or not.
 
     if (StatusBar.isVisible) {
-    	// do something
+        // do something
     }
 
 
@@ -310,9 +279,6 @@ Supported Platforms
 
 - iOS
 - Android
-- Windows Phone 7
-- Windows Phone 8
-- Windows Phone 8.1
 
 
 statusTap
